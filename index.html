@@ -1,70 +1,95 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-   <head>
-      <link rel="stylesheet" href="css/style.css" type="text/css">
-      <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
-   </head>
-<body>
-<header id="home">
-<img class="logo" src="logo.png" alt="logo">	
-  <nav>	
-	<div class="menu">
-	   <ol>
-		  <div class="hovertext"><a href="#home">Home</a></div>
-		  <div class="hovertext"><a href="#About">About</a></div>
-		  <div class="hovertext"><a href="#Portfolio">Portfolio</a></div>
-		  <div class="hovertext"><a href="#Contact">Contact</a></div>
-	   </ol>
-	</div>
-	</nav>
-	<div class="header">
-	   <img class="me" src="img/github.png" alt="picture">
-		<h1>HEY!</h1>
-		<h1 class="headertext2">I AM KASPER</h1>
-		<ol class="logo">
-		   <a href="https://github.com/Kaspoehh" target="new"><img src="img/github.png" alt="github"></a>
-		   <a href="https://www.facebook.com/profile.php?id=100004785193306" target="new"><img src="img/facebook.png" alt="facebook"></a>
-		   <a href="https://www.instagram.com/kaspoehh/" target="new"><img src="img/instagram.png" alt="instagram"></a>
-		</ol>
-	</div>
-</header>
-<div class="text" id="About">
- <h1>ABOUT</h1>
-<p>		
-	<img class="image" src="img/facebook.png" alt="picture">
-	Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam malesuada gravida metus ut vulputate. Quisque a magna congue, egestas leo non, auctor ligula. Morbi pretium consectetur massa in iaculis. Nam fringilla aliquam nisl, a faucibus urna. Proin faucibus bibendum elit sit amet mattis. In sed consequat neque. Ut quis libero fermentum, elementum eros nec, egestas ligula. Maecenas quis porttitor lorem. Nunc auctor libero quis ex lobortis, quis molestie ipsum fermentum. Sed rhoncus accumsan elit. Cras volutpat mi fermentum sapien ultrices imperdiet. Cras mi leo, volutpat non purus at, venenatis faucibus diam. Aenean pharetra velit lorem, at pulvinar erat imperdiet at.
- </p>
-<p>		
-	<img class="image" src="img/facebook.png" alt="picture">
-	Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam malesuada gravida metus ut vulputate. Quisque a magna congue, egestas leo non, auctor ligula. Morbi pretium consectetur massa in iaculis. Nam fringilla aliquam nisl, a faucibus urna. Proin faucibus bibendum elit sit amet mattis. In sed consequat neque. Ut quis libero fermentum, elementum eros nec, egestas ligula. Maecenas quis porttitor lorem. Nunc auctor libero quis ex lobortis, quis molestie ipsum fermentum. Sed rhoncus accumsan elit. Cras volutpat mi fermentum sapien ultrices imperdiet. Cras mi leo, volutpat non purus at, venenatis faucibus diam. Aenean pharetra velit lorem, at pulvinar erat imperdiet at.
- </p>
-</div>
-<div class="text" id="Portfolio">
-	 <h1>Portfolio</h1>
-		<div>
-			<img class="image_left" src="img/placeholder.jpg" alt="placeholder">           		
-			<img class="image_right" src="img/placeholder.jpg" alt="placeholder">
-		</div>
-</div>
-
-<div class="text_contact" id="Contact">
- <h1>Contact</h1>
-<p class="contact_text">			
-	<a> Neem contact op via de E-Mail(kasperbruin8@gmail.com) of via <a href="https://www.facebook.com/profile.php?id=100004785193306" target="_blank">Facebook!<img class="image_contact" src="img/facebook.png" alt="facebook"></a></a>
- </p>
-</div>
-<script type="text/javascript">
-		$(window).on("scroll", function(){
-			if($(window).scrollTop()){
-				$('nav').addClass('black');
-				$('nav').removeClass('noblack');
-			}
-			else
-			{
-				$('nav').removeClass('black');
-				$('nav').addClass('noblack');
-			}
-})</script>
-	
-</body>
+    <head>
+        <link rel="stylesheet" href="css/style.css" type="text/css" />
+        <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    </head>
+    <body>
+        <header id="home">
+            <img class="logo" src="logo.png" alt="logo" />
+            <nav>
+                <div class="menu">
+                    <ol>
+						<a href="#home"><div class="hovertext">Home</div></a>
+                        <a href="#About"><div class="hovertext">About</div></a>
+                        <a href="#Portofolio"><div class="hovertext"> Portofolio</div></a>
+                        <a href="#Contact"><div class="hovertext">Contact</div></a>
+                    </ol>
+                </div>
+            </nav>
+            <div class="header">
+                <img class="me" src="img/github.png" alt="picture" />
+                <h1>HEY!</h1>
+                <h1 class="headertext2">I AM KASPER, And This is a website about me</h1>
+                <ol class="logo">
+                    <a href="https://github.com/Kaspoehh" target="new"><img src="img/github.png" alt="github" /></a>
+                    <a href="https://www.facebook.com/profile.php?id=100004785193306" target="new"><img src="img/facebook.png" alt="facebook" /></a>
+                    <a href="https://www.instagram.com/kaspoehh/" target="new"><img src="img/instagram.png" alt="instagram" /></a>
+                </ol>
+            </div>
+        </header>
+        <div class="text" id="About">
+            <h1>ABOUT</h1>
+            <p>
+                <img class="image" src="img/facebook.png" alt="picture" /> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam malesuada gravida metus ut vulputate. Quisque a magna congue, egestas leo non, auctor ligula. Morbi
+                pretium consectetur massa in iaculis. Nam fringilla aliquam nisl, a faucibus urna. Proin faucibus bibendum elit sit amet mattis. In sed consequat neque. Ut quis libero fermentum, elementum eros nec, egestas ligula. Maecenas
+                quis porttitor lorem. Nunc auctor libero quis ex lobortis, quis molestie ipsum fermentum. Sed rhoncus accumsan elit. Cras volutpat mi fermentum sapien ultrices imperdiet. Cras mi leo, volutpat non purus at, venenatis
+                faucibus diam. Aenean pharetra velit lorem, at pulvinar erat imperdiet at.
+            </p>
+            <p>
+                <img class="image" src="img/facebook.png" alt="picture" /> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam malesuada gravida metus ut vulputate. Quisque a magna congue, egestas leo non, auctor ligula. Morbi
+                pretium consectetur massa in iaculis. Nam fringilla aliquam nisl, a faucibus urna. Proin faucibus bibendum elit sit amet mattis. In sed consequat neque. Ut quis libero fermentum, elementum eros nec, egestas ligula. Maecenas
+                quis porttitor lorem. Nunc auctor libero quis ex lobortis, quis molestie ipsum fermentum. Sed rhoncus accumsan elit. Cras volutpat mi fermentum sapien ultrices imperdiet. Cras mi leo, volutpat non purus at, venenatis
+                faucibus diam. Aenean pharetra velit lorem, at pulvinar erat imperdiet at.
+            </p>
+        </div>
+        <div class="background_portofolio" id="Portofolio">
+            <h1>Portofolio</h1>
+        </div>
+        <div class="portofolio">
+			<p>
+                Hier zijn een aantal projecten waar ik aan gewerkt heb,<br />
+                wanneer je op een plaatje klikt wordt je of naar de GitHub pagina<br />
+                of de website van dit product gebracht!
+            </p>
+			<ol>
+                <img src="img/placeholder.jpg" alt="placeholder" /> 
+				<img src="img/placeholder.jpg" alt="placeholder" /> 
+				<img src="img/placeholder.jpg" alt="placeholder" /> 
+				<img src="img/placeholder.jpg" alt="placeholder" />
+                <img src="img/placeholder.jpg" alt="placeholder" /> 
+				<img src="img/placeholder.jpg" alt="placeholder" /> 
+				<img src="img/placeholder.jpg" alt="placeholder" /> 
+				<img src="img/placeholder.jpg" alt="placeholder" />
+				
+			</ol>
+			
+        </div>
+		
+		<div class="white_line"></div>
+		<div class="white_line"></div>
+        <div class="text" id="Contact">
+            <h1>Contact</h1>
+            <p class="contact_text">
+                    Neem contact op via de E-Mail(kasperbruin8@gmail.com) of via
+                    <a href="https://www.facebook.com/profile.php?id=100004785193306" target="_blank">Facebook!<img class="image_contact" src="img/facebook.png" alt="facebook" /></a>
+				<br>Het contact formulier komt snel!
+                
+            </p>
+        </div>
+        <div class="footer">
+            <footer></footer>
+        </div>
+        <script type="text/javascript">
+            $(window).on("scroll", function () {
+                if ($(window).scrollTop()) {
+                    $("nav").addClass("black");
+                    $("nav").removeClass("noblack");
+                } else {
+                    $("nav").removeClass("black");
+                    $("nav").addClass("noblack");
+                }
+            });
+        </script>
+    </body>
 </html>
