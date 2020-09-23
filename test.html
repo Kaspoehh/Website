@@ -1,0 +1,70 @@
+<!doctype html>
+<html>
+   <head>
+      <link rel="stylesheet" href="css/style.css" type="text/css">
+      <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+   </head>
+<body>
+<header>
+  <nav>
+	<img class="logo" src="logo.png" alt="logo">	
+	<div class="menu">
+	   <ul>
+		  <li><a href="#home">Home</a></li>
+		  <li><a href="#About">About</a></li>
+		  <li><a href="#Portfolio">Portfolio</a></li>
+		  <li><a href="#Contact">Contact</a></li>
+	   </ul>
+	</div>
+         </nav>
+         <div id="home">
+           <img class="me" src="img/github.png">
+            <h1>HEY!</h1>
+            <h1 class="headertext2">I AM KASPER</h1>
+            <ol class="logo">
+               <a href="https://github.com" target="new"><img src="img/github.png" alt="github"></a>
+               <a href="https://facebook.com" target="new"><img src="img/facebook.png" alt="facebook"></a>
+               <a href="https://instagram.com" target="new"><img src="img/instagram.png" alt="instagram"></a>
+            </ol>
+         </div>
+</header>
+<div class="text" id="About">
+ <h1>ABOUT</h1>
+<p>		
+	<img class="image" src="img/facebook.png">
+	Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam malesuada gravida metus ut vulputate. Quisque a magna congue, egestas leo non, auctor ligula. Morbi pretium consectetur massa in iaculis. Nam fringilla aliquam nisl, a faucibus urna. Proin faucibus bibendum elit sit amet mattis. In sed consequat neque. Ut quis libero fermentum, elementum eros nec, egestas ligula. Maecenas quis porttitor lorem. Nunc auctor libero quis ex lobortis, quis molestie ipsum fermentum. Sed rhoncus accumsan elit. Cras volutpat mi fermentum sapien ultrices imperdiet. Cras mi leo, volutpat non purus at, venenatis faucibus diam. Aenean pharetra velit lorem, at pulvinar erat imperdiet at.
+ </p>
+<p>		
+	<img class="image" src="img/facebook.png">
+	Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam malesuada gravida metus ut vulputate. Quisque a magna congue, egestas leo non, auctor ligula. Morbi pretium consectetur massa in iaculis. Nam fringilla aliquam nisl, a faucibus urna. Proin faucibus bibendum elit sit amet mattis. In sed consequat neque. Ut quis libero fermentum, elementum eros nec, egestas ligula. Maecenas quis porttitor lorem. Nunc auctor libero quis ex lobortis, quis molestie ipsum fermentum. Sed rhoncus accumsan elit. Cras volutpat mi fermentum sapien ultrices imperdiet. Cras mi leo, volutpat non purus at, venenatis faucibus diam. Aenean pharetra velit lorem, at pulvinar erat imperdiet at.
+ </p>
+</div>
+<div class="text" id="Portfolio">
+	<div>
+	 <h1>Portfolio</h1>		
+		<a>
+			<img class="image_left" src="img/placeholder.jpg">           		
+			<img class="image_right" src="img/placeholder.jpg">
+		</a>
+	 </div>
+</div>
+
+<div class="text" id="Contact">
+ <h1>Contact</h1>
+<p>			
+	<a> Neem contact op via de E-Mail(kasperbruin8@gmail.com) of via Facebook!<img class="image_contact" src="img/facebook.png"></a>
+ </p>
+</div>
+<script type="text/javascript">
+		$(window).on("scroll", function(){
+			if($(window).scrollTop()){
+				$('nav').addClass('black');
+			}
+			else
+			{
+				$('nav').removeClass('black');
+			}
+})</script>
+	
+</body>
+</html>
