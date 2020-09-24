@@ -27,7 +27,7 @@ nav.black:hover div a {
 
 header {
     margin-top: inherit;
-    background: linear-gradient(rgba(0, 0, 100, 0.5), rgba(0, 0, 100, 0.5)), url(bg.jpg);
+    background: linear-gradient(rgba(0, 0, 100, 0.5), rgba(0, 0, 100, 0.5)), url(../img/bg.jpg);
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -122,7 +122,7 @@ nav.black:hover {
 .footer
 {
     padding-top: 10px;
-    padding-left: 50%;
+    padding-left: 42%;
 }
 
 .footer a{
