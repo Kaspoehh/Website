@@ -37,6 +37,11 @@ footer {
     background-size: cover;
     background-position: center;
     height: 10vh;
+
+}
+footer img
+{
+
 }
 
 nav {
@@ -52,11 +57,12 @@ nav ol div {
     color: white;
     display: inline-block;
     padding: 16px 0px;
-	transition: 0.8s;
+	transition: 0.7s;
 }
 
 nav ol div:hover {
 	background: #555555;
+    border-radius: 20%;
 	color: white;
     display: inline-block;
     padding: 16px 32px;
@@ -113,13 +119,43 @@ nav.black:hover {
     color: white;
 }
 
+.footer
+{
+    padding-top: 10px;
+    padding-left: 50%;
+}
+
+.footer a{
+    width: 48px;
+    height: 48px;
+}
+.footer a img {
+    width: 48px;
+    height: 48px;
+    filter: invert(50%);
+    padding-right: 5px;
+    margin-right: 5px;
+    color: white;
+    transition: 0.4s;   
+    perspective: none;
+}
+
+.footer a img:hover {
+    filter: invert(50%);
+    width: 48px;
+    height: 48px;
+    filter: invert(50%);
+    padding-right: 5px;
+    margin-right: 5px;
+    color: white;
+}
+
 h1 {
     font-size: 48px;
     text-transform: uppercase;
     letter-spacing: 2px;
     font-weight: bold;
     text-align: left;
-    padding-top: 200px;
     padding-left: 50px;
     color: #fff;
 }
@@ -184,6 +220,15 @@ h1.headertext2 {
     height: 20px;
 }
 
+.image_unity {
+    width: 100px;
+    height: 100%;
+    border-radius: 80%;
+    filter: invert(100%);
+    background-color: white;
+    float: right;
+}
+
 p {
     font-size: 18px;
     line-height: 28px;
@@ -194,7 +239,6 @@ p {
 .me {
     height: 100%;
     float: right;
-    padding-top: 150px;
     padding-right: 20px;
 }
 
